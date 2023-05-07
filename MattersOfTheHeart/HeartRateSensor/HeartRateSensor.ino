@@ -2,8 +2,8 @@
 #include <PulseSensorPlayground.h>  // Includes the PulseSensor Library.
 
 //  Variables
-const int PulseWire = 0;
-const int LED = LED_BULITIN;
+const int PulseWire = 1;
+const int LED = 6;
 int Threshold = 550;
 
 PulseSensorPlayground pulseSensor;  // Creates a PulseSensor object called "pulseSensor"
